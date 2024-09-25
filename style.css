@@ -82,3 +82,40 @@
 .button:hover {
   background-color: #894b17;
 }
+
+.header-down {
+  position: relative;
+}
+
+.header-title {
+  color: #d67e35;
+  font-family: "Tinos", serif;
+  font-size: 50px;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+  left: 0;
+  margin-top: 222px;
+  margin-bottom: 12px;
+}
+
+.header-suptitle {
+  color: #fff;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.header-button {
+  background-color: #ff7400;
+  padding: 14px 28px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  transition: background-color 0.3s linear;
+}
+
+.header-button:hover {
+  background-color: #904506;
+}
